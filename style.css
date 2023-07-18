@@ -116,3 +116,18 @@ nav ul li {
   line-height: var(--line-height);
   padding: 5px 0;
 }
+
+.more-about{
+    background-color: var(--bg-color);
+    padding: 16px 96px;
+}
+
+.more-about h2{
+    margin-bottom: var(--bottom-margin);
+    text-align: center;
+}
+
+.more-about p{
+    line-height: var(--line-height);
+    padding: 6px;
+}
