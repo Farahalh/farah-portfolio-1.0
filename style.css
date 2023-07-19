@@ -305,3 +305,10 @@ nav ul li {
   width: 42px;
   height: 42px;
 }
+
+footer{
+    background-color: var(--bg-color);
+    padding: 20px;
+    text-align: center;
+    margin: 32px 0 0;
+}
