@@ -5,10 +5,10 @@
   --normal-font: 400;
   --bold-font: 700;
   --bg-color: #fcfcfc;
-  --primary-color: #4756df;
-  --secondary-color: #ff7235;
+  --primary-color: #473262;
+  --secondary-color: #dbc5f8;
   --primary-shadow: #8b8eaf;
-  --secondary-shadow: #a17169;
+  --secondary-shadow: #dbc5f8;
   --bottom-margin: 8px;
   --bottom-margin-2: 16px;
   --line-height: 32px;
@@ -97,8 +97,9 @@ nav ul li {
 }
 
 .hero img {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: auto;
+  margin-bottom: 160px;
 }
 
 .bio {
@@ -117,17 +118,45 @@ nav ul li {
   padding: 5px 0;
 }
 
-.more-about{
-    background-color: var(--bg-color);
-    padding: 16px 96px;
+.more-about {
+  background-color: var(--bg-color);
+  padding: 16px 96px;
 }
 
-.more-about h2{
-    margin-bottom: var(--bottom-margin);
-    text-align: center;
+.more-about h2 {
+  margin-bottom: var(--bottom-margin);
+  text-align: center;
 }
 
-.more-about p{
-    line-height: var(--line-height);
-    padding: 6px;
+.more-about p {
+  line-height: var(--line-height);
+  padding: 6px;
+}
+
+.skills {
+  max-width: 1100px;
+  margin-top: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.skill-header {
+  margin-bottom: 16px;
+}
+
+.skill-wrapper img {
+  padding: 20px;
+}
+
+.icon {
+  width: 190px;
+  height: 180px;
+}
+
+.icon-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
 }
