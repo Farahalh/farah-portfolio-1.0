@@ -302,13 +302,25 @@ nav ul li {
 }
 
 .socicon {
-  width: 42px;
-  height: 42px;
+  width: 48px;
+  height: 48px;
 }
 
-footer{
-    background-color: var(--bg-color);
-    padding: 20px;
-    text-align: center;
-    margin: 32px 0 0;
+footer {
+  background-color: var(--bg-color);
+  padding: 20px;
+  text-align: center;
+  margin: 32px 0 0;
+}
+
+.scroll-up {
+  position: fixed;
+  right: 0.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.up-arrow {
+  width: 48px;
+  height: 48px;
 }
