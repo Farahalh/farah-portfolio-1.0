@@ -362,4 +362,22 @@ footer {
   nav ul.show {
     transform: translateX(0);
   }
+
+  .hero {
+    margin-top: 64px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .hero img {
+    height: 300px;
+    width: auto;
+    padding-right: 0;
+  }
+
+  .bio {
+    margin-top: -112px;
+    width: 350px;
+  }
 }
