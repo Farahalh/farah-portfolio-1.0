@@ -324,3 +324,37 @@ footer {
   width: 48px;
   height: 48px;
 }
+
+@media screen and (max-width: 720px) {
+  nav {
+    padding: 24px 16px;
+  }
+
+  nav ul {
+    position: fixed;
+    flex-direction: column;
+    top: 13%;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  nav ul li {
+    margin: 8px;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  nav ul.show {
+    transform: translateX(0);
+  }
+}
