@@ -365,7 +365,7 @@ footer {
 
   .hero {
     margin-top: 64px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
     flex-direction: column;
     gap: 0;
   }
@@ -379,5 +379,56 @@ footer {
   .bio {
     margin-top: -112px;
     width: 350px;
+  }
+
+  .more-about {
+    margin-top: 16px;
+    padding: 16px 56px;
+  }
+
+  .more-about h2 {
+    text-align: center;
+  }
+
+  .more-about p {
+    text-align: justify;
+  }
+
+  .icon {
+    width: 94px;
+    height: 84px;
+  }
+
+  .projects-container {
+    flex-direction: column;
+  }
+
+  .project-container {
+    width: 334px;
+  }
+
+  .contact-form-container {
+    max-width: 380px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .hero img {
+    height: 200px;
+    width: auto;
+    padding-right: 0;
+  }
+
+  .bio {
+    margin-top: -112px;
+    width: 290px;
+  }
+
+  .project-container {
+    width: 286px;
+  }
+
+  .contact-form-container {
+    width: 284px;
   }
 }
