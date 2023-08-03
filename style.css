@@ -401,6 +401,10 @@ footer {
     text-align: justify;
   }
 
+  .skills {
+    max-width: 380px;
+  }
+
   .icon {
     width: 94px;
     height: 84px;
@@ -410,9 +414,13 @@ footer {
     flex-direction: column;
   }
 
-  .project-container {
+  /*.project-container {
     width: 334px;
     height: auto;
+  }*/
+
+  .project-card {
+    max-width: 380px;
   }
 
   .contact-form-container {
@@ -440,8 +448,16 @@ footer {
     gap: 50px;
   }
 
-  .project-container {
+  /*.project-container {
     width: 286px;
+  }*/
+
+    .skills {
+    max-width: 284px;
+  }
+
+  .project-card {
+    max-width: 284px;
   }
 
   .contact-form-container {
@@ -449,8 +465,8 @@ footer {
   }
 
   .socicon {
-    width: 25px;
-    height: 25px;
+    width: 33px;
+    height: 33px;
   }
 
   .scroll-up {
