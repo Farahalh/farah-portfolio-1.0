@@ -406,8 +406,8 @@ footer {
   }
 
   .icon {
-    width: 94px;
-    height: 84px;
+    width: 64px;
+    height: 64px;
   }
 
   .projects-container {
@@ -452,8 +452,13 @@ footer {
     width: 286px;
   }*/
 
-    .skills {
+  .skills {
     max-width: 284px;
+  }
+
+  .icon {
+    width: 64px;
+    height: 64px;
   }
 
   .project-card {
